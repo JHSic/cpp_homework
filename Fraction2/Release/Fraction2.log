@@ -1,0 +1,5 @@
+﻿  Fraction.cpp
+  main.cpp
+main.obj : error LNK2001: 확인할 수 없는 외부 기호 "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Fraction const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVFraction@@@Z)
+main.obj : error LNK2001: 확인할 수 없는 외부 기호 "class std::basic_istream<char,struct std::char_traits<char> > & __cdecl operator>>(class std::basic_istream<char,struct std::char_traits<char> > &,class Fraction const &)" (??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@ABVFraction@@@Z)
+C:\Users\김주호\source\repos\Fraction2\Release\Fraction2.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.
